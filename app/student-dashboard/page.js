@@ -1,9 +1,10 @@
 "use client";
 import React from 'react';
-import MainLayout from '../layout/main-layout';
-import Sidebar from '../layout/sidebar';
-import Navbar from '../layout/navbar';
-import Card from '../global/card';
+import MainLayout from '../../components/layout/main-layout';
+import Sidebar from '../../components/layout/Sidebar'
+import Navbar from '../../components/layout/Navbar';
+import Card from '../../components/global/card';
+//added fixes
 
 const StudentDashboardPage = () => {
   // The middleware protects this page, so we can assume a valid session exists.
