@@ -4,6 +4,7 @@ import MainLayout from '../../components/layout/main-layout';
 import Sidebar from '../../components/layout/Sidebar'
 import Navbar from '../../components/layout/Navbar';
 import Card from '../../components/global/card';
+//added fixes
 
 const StudentDashboardPage = () => {
   // The middleware protects this page, so we can assume a valid session exists.

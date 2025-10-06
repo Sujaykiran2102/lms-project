@@ -1,5 +1,6 @@
 // app/login/page.js
 import Navbar from "../../components/layout/Navbar";
+//added fixes
 
 export default function LoginPage() {
   return (
